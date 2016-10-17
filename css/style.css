@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 600px;
+    margin: 100px auto 0;
+}
+
+.slider {
+    width: inherit;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider li {
+    float: left;
+}
+
+.slider ul {
+    width:10000px;
+    list-style: none;
+}
+
+
+#slider-nav {
+    text-align: center;
+    margin-top: 1em;
+    color: #333;
+}
+
+#slider-nav button {
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 10px;
+    cursor:pointer;
+    font-weight: bold;
+    
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: 'Roboto', sans-serif;
+   color: #333;
+}
+
+
+
